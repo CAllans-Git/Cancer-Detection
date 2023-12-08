@@ -31,8 +31,8 @@ Our model achieves:  Class     Images  Instances      Box(P          R      mAP5
                      stas       211       1081      0.773      0.685      0.761      0.465. 
 The following are some sample detections:
 
-![Sample Detection 1](Sample1.png)
-![Sample Detection 2](Sample2.png)
+![Sample Detection 1](Sample 1.png)
+![Sample Detection 2](Sample 2.png)
 
 ### Training
 The model training is performed using the YOLOv8 framework. Training sessions can be customized by varying the number of epochs, batch size, learning rate, and optimizer.!yolo train model=yolov8n.pt data='/content/dataset/data.yaml' epochs=60 verbose=True

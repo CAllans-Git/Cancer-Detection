@@ -26,9 +26,11 @@ The dataset consists of histopathological images annotated with the presence of 
 We use a YOLOv8 model, pre-trained on a general dataset and fine-tuned on our specific histopathological image data.
 
 ## Results
-Our model achieves:  Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% 7/7 [00:06<00:00,  1.13it/s]
-                     all        211       1081      0.773      0.685      0.761      0.465
-                     stas       211       1081      0.773      0.685      0.761      0.465. 
+Our model achieves: 
+
+                  Class     Images  Instances    Box(P          R      mAP50  mAP50-95): 100% 7/7 [00:06<00:00,  1.13it/s]
+                  all        211       1081      0.773      0.685      0.761      0.465
+                  stas       211       1081      0.773      0.685      0.761      0.465. 
 The following are some sample detections:
 
 ![Sample Detection 1](Sample1.png)
